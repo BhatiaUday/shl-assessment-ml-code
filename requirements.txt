@@ -1,0 +1,40 @@
+# SHL Grammar Scoring - Python Dependencies
+
+# Core ML Frameworks
+torch==2.1.0
+transformers==4.44.0
+peft==0.12.0
+accelerate==0.24.0
+sentencepiece==0.1.99
+protobuf==4.25.0
+
+# Audio Processing
+faster-whisper==0.10.0
+
+# NLP Tools
+spacy==3.7.5
+language-tool-python==2.7.1
+textstat==0.7.3
+
+# Data Processing
+numpy==1.23.5
+pandas==2.0.3
+scipy==1.10.1
+
+# Machine Learning
+scikit-learn==1.3.2
+lightgbm==4.1.0
+
+# Training Utils
+tqdm==4.66.1
+
+# Visualization (optional)
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Jupyter (for inference notebook)
+jupyter==1.0.0
+ipykernel==6.25.2
+
+# Note: After installing spacy, run:
+# python -m spacy download en_core_web_sm
